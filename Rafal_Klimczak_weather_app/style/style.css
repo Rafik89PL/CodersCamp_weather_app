@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+} 
+
+.weather-container {
+    background: #e4f5fc;
+    background: -moz-linear-gradient(top, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+    background: -webkit-linear-gradient(top, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+    background: linear-gradient(to bottom, #e4f5fc 0%, #bfe8f9 50%, #9fd8ef 51%, #2ab0ed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4f5fc', endColorstr='#2ab0ed', GradientType=0);
+    border: 5px solid #ed6802;
+    border-radius: 5%;
+    font-family: "Lato", sans-serif;
+    margin: 50px auto;
+    max-width: 300px;
+    padding: 20px;
+
+}
+
+#data-name,
+.weather-container>h3,
+.data-icon {
+    text-align: center;
+}
+
+#data-name {
+    font-weight: bold;
+}
+
+#city-name {
+    border-radius: 5%;
+    display: block;
+    margin: 10px auto;
+    max-width: 250px;
+    text-align: center;
+}
+
+#get-data {
+    background-color: #ed6802;
+    border-radius: 50%;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    height: 50px;
+    margin: 15px auto;
+    width: 50px;
+}
